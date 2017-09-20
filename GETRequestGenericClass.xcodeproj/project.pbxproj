@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E60E8CD1F5D32D400E1A102 /* ModelConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60E8CC1F5D32D400E1A102 /* ModelConstant.swift */; };
 		2E60E8CF1F5D33DC00E1A102 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60E8CE1F5D33DC00E1A102 /* RequestMethod.swift */; };
 		2E61C4C51F5CE35B004A5161 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61C4C41F5CE35B004A5161 /* AppDelegate.swift */; };
 		2E61C4C71F5CE35B004A5161 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61C4C61F5CE35B004A5161 /* ViewController.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E60E8CC1F5D32D400E1A102 /* ModelConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelConstant.swift; sourceTree = "<group>"; };
 		2E60E8CE1F5D33DC00E1A102 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
 		2E61C4C11F5CE35B004A5161 /* GETRequestGenericClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GETRequestGenericClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E61C4C41F5CE35B004A5161 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,14 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E60E8CB1F5D32C100E1A102 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				2E60E8CC1F5D32D400E1A102 /* ModelConstant.swift */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
 		2E61C4B81F5CE35B004A5161 = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +103,6 @@
 		2E61C4C31F5CE35B004A5161 /* GETRequestGenericClass */ = {
 			isa = PBXGroup;
 			children = (
-				2E60E8CB1F5D32C100E1A102 /* Constant */,
 				2E61C5091F5CE6DC004A5161 /* Models */,
 				2E61C4C41F5CE35B004A5161 /* AppDelegate.swift */,
 				2E61C4C61F5CE35B004A5161 /* ViewController.swift */,
@@ -299,7 +288,6 @@
 				2E61C4C71F5CE35B004A5161 /* ViewController.swift in Sources */,
 				2E61C5051F5CE3ED004A5161 /* Initiative.swift in Sources */,
 				2E61C5031F5CE3C3004A5161 /* Event.swift in Sources */,
-				2E60E8CD1F5D32D400E1A102 /* ModelConstant.swift in Sources */,
 				2E61C4C51F5CE35B004A5161 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
